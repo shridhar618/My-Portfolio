@@ -713,13 +713,9 @@ footer i{
         background: #0f0a0a;
         border-top: 1px solid rgba(255,255,255,.1);
         border-bottom: .2rem solid rgba(255,255,255,.1);
-        display: none;
     }
-    .navbar.active{
-        display: block;
-    }
+    
     .navbar a{
-        display: block;
         margin: 3rem 0;
         font-size: 2rem;
     }

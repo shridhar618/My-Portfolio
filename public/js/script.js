@@ -26,3 +26,12 @@ window.onscroll = ()=>{
     menubar.classList.remove('bx-x');
     Navbar.classList.remove('active')
 } 
+
+
+function whatsapp(){
+    window.location.href="https://chat.whatsapp.com/8431152037";
+}
+
+function hire(){
+    window.location.href="https://www.linkedin.com/in/shridhar-bhat-bb3410290/";
+}
