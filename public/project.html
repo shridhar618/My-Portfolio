@@ -14,7 +14,7 @@
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            background-color: #f4f4f9;
+            background-color: #f6eeee;
             color: #333;
         }
 
@@ -27,22 +27,27 @@
 
         header h1 {
             font-size: 2rem;
+            color: #99dced;
         }
 
         nav {
             margin-top: 10px;
+            font-size: bold;
         }
 
         nav a {
-            color: #fff;
+            display: inline;
+            color: #99dced;
             text-decoration: none;
-            margin: 0 15px;
-            font-size: 1rem;
+            padding: 30px;
+            font-size: bold;
         }
 
-        nav a:hover {
-            text-decoration: underline;
+        a:hover{
+            color: #ccc;
         }
+
+     
 
         .hero {
             text-align: center;
@@ -53,24 +58,25 @@
         .hero h2 {
             font-size: 2rem;
             margin-bottom: 1rem;
+            color: #0274b3;
         }
 
         .hero p {
             font-size: 1.2rem;
-            color: #666;
+            color: #534f4f;
         }
 
         .projects {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
+            gap: 50px;
             padding: 2rem;
             max-width: 1200px;
             margin: auto;
         }
 
         .project-card {
-            background: #fff;
+            background: rgba(245, 222, 179, 0.349);
             border: 1px solid #ddd;
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -104,6 +110,7 @@
         }
 
         footer {
+            justify-content: center;
             text-align: center;
             background: linear-gradient(black,purple);
             color: #fff;
@@ -116,9 +123,8 @@
         }
 
         footer a {
-            color: #fff;
+            color: #080707;
             text-decoration: none;
-            margin: 0 5px;
         }
 
         footer a:hover {
@@ -333,11 +339,11 @@ ul {
 
     <section id="projects" class="projects">
         <div class="project-card">
-            <img src="images/navonmesh-project.png" alt="project1" height="200px" width="300px">
-            <h3>Navonmesh</h3>
-            <p>A College Event Management website created using Flask</p>
+            <img src="images/navonmesh-project.png" alt="project1" height="150px" width="300px">
+            <h3>Navonmesh 2024</h3>
+            <p>A College Event Management website created using Flask in 2024</p>
             <!-- From Uiverse.io by cssbuttons-io --> 
-            <button class="learn-more">
+            <button onclick="navonmesh()" class="learn-more">
                 <span class="circle" aria-hidden="true">
                 <span class="icon arrow"></span>
                 </span>
@@ -345,10 +351,10 @@ ul {
             </button>
         </div>
         <div class="project-card">
-            <img src="#" alt="project2">
-            <h3>Project Two</h3>
-            <p>A brief description of the second project.</p>
-            <button class="learn-more">
+            <img src="images/keeper-project.png" alt="project2" height="150px" width="300px">
+            <h3>Note Keeper Project</h3>
+            <p>A Simple Note Keeper App Created By React JS in 2025</p>
+            <button onclick="keeper()" class="learn-more">
                 <span class="circle" aria-hidden="true">
                 <span class="icon arrow"></span>
                 </span>
@@ -385,7 +391,7 @@ ul {
             <ul class="example-2">
                 <li class="icon-content">
                 <a
-                    href="https://linkedin.com/"
+                    href="https://www.linkedin.com/in/shridhar-bhat-bb3410290/"
                     aria-label="LinkedIn"
                     data-social="linkedin"
                 >
@@ -408,7 +414,7 @@ ul {
                 <div class="tooltip">LinkedIn</div>
                 </li>
                 <li class="icon-content">
-                <a href="https://www.github.com/" aria-label="GitHub" data-social="github">
+                <a href="https://github.com/shridhar618" aria-label="GitHub" data-social="github">
                     <div class="filled"></div>
                     <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -429,7 +435,7 @@ ul {
                 </li>
                 <li class="icon-content">
                 <a
-                    href="https://www.instagram.com/"
+                    href="https://www.instagram.com/shridhar.io"
                     aria-label="Instagram"
                     data-social="instagram"
                 >
@@ -452,7 +458,7 @@ ul {
                 <div class="tooltip">Instagram</div>
                 </li>
                 <li class="icon-content">
-                <a href="https://youtube.com/" aria-label="Youtube" data-social="youtube">
+                <a href="https://youtube.com/@kannadatechsupport2893?si=uKMIjtvHbIrvAf3A" aria-label="Youtube" data-social="youtube">
                     <div class="filled"></div>
                     <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -475,5 +481,14 @@ ul {
         
         </p>
     </footer>
+    <script>
+        function keeper(){
+            window.location.href="https://keeper-sepia-phi.vercel.app/";
+        }
+
+        function navonmesh(){
+            window.location.href="https://shannu44.pythonanywhere.com/";
+        }
+    </script>
 </body>
 </html>
