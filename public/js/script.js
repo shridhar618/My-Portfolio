@@ -28,9 +28,16 @@ window.onscroll = ()=>{
 } 
 
 
-function whatsapp(){
-    window.location.href="https://chat.whatsapp.com/8431152037";
+
+function whatsapp() {
+    let phoneNumber = "8431152037"; // Replace with your WhatsApp number
+    let message = "Hello👋 Shridhar!"; // Optional message
+    let url = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message);
+    
+    window.open(url, "_blank"); // Opens in a new tab
 }
+
+
 
 function hire(){
     window.location.href="https://www.linkedin.com/in/shridhar-bhat-bb3410290/";
