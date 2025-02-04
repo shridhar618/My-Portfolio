@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -9,15 +10,18 @@
     border: none; 
     color: #fff;
 }
+
 body{
     background: #0f0a0a;
     height: 100vh;
     font-family: "poppins";
 }
+
 html{
     font-size: 62.5%;
     overflow-x: hidden;
 }
+
 .header{
     position: fixed;
     left: 0;
@@ -29,10 +33,12 @@ html{
     align-items: center;
     z-index: 100;
 }
+
 .sticky{
     border-bottom: 2px solid rgba(255,255,255,.1);
     background: #0f0a0a;
 }
+
 .logo{
     font-size: 2.9rem;
     font-weight: 600;
@@ -42,6 +48,7 @@ html{
     opacity: 0;
     animation: RightSlide 1s ease forwards;
 }
+
 @keyframes  RightSlide{
     0%{
         transform: translateX(-100%);
@@ -58,6 +65,7 @@ html{
     font-size: 2.5rem;
     display: none;
 }
+
 .navbar a{
     display: inline-block;
     font-size: 1.7rem;
@@ -69,8 +77,8 @@ html{
     transform: translateY(-100px);
     opacity: 0;
     animation: TopSlide 1s ease forwards;
-    animation-delay: calc(.2s * var(--vlr));
 }
+
 @keyframes  TopSlide{
     0%{
         transform: translateY(-100px);
@@ -81,24 +89,30 @@ html{
         opacity: 1;
     }
 }
+
 .navbar a:hover,.navbar a.active{
     color: #ff00ee;
 }
+
 section{
     padding: 10rem 9% 2rem;
     min-height: 100vh;
 }
+
 .about,.education,.contact,.skills{
     overflow: hidden;
 }
+
 .home{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .text-content{
     max-width: 70rem;
 }
+
 .text-content h1{
     font-size: 5rem;
     color: #fff;
@@ -110,6 +124,7 @@ section{
     animation: RightSlide 1s ease forwards;
     animation-delay: 0.3s;
 }
+
 .text-animation{
     position: relative;
     width: 32.8rem;
@@ -128,7 +143,7 @@ section{
     opacity: 0;
     animation: textSlide 2s linear infinite,
     TopSlide 1s ease forwards;
-    animation-delay: 1s,1.2s;
+    animation-delay: 0.3s;
 }
 @keyframes textSlide{
     0%,10%,100%{
@@ -150,7 +165,7 @@ section{
     opacity: 0;
     animation: CursorSlide 6s linear infinite,
     TopSlide 1s ease forwards;
-    animation-delay: 2s,1.2s;
+    animation-delay: 0.2s;
 }
 @keyframes CursorSlide {
     0%,10%,100%{
@@ -172,7 +187,7 @@ section{
     transform: translateX(100px);
     opacity: 0;
     animation: leftSlide 1s ease forwards;
-    animation-delay: 1s;
+    animation-delay: 0.1s;
 }
 @keyframes leftSlide{
     0%{
@@ -203,7 +218,6 @@ section{
     width: 100%;
     z-index: 2;
     animation: Slide 1s ease forwards;
-    animation-delay: 0.6s;
 }
 @keyframes Slide{
     0%{
@@ -262,11 +276,10 @@ section{
     position: relative;
     overflow: hidden;
     animation: Bottom 1s ease forwards;
-    animation-delay: calc(.2s * var(--vlr));
     transform: translateY(100px);
     opacity: 0;
-
 }
+
 @keyframes Bottom{
     0%{
         transform: translateY(100px);
@@ -277,6 +290,7 @@ section{
     opacity: 1;
     }
 }
+
 .social-media i::after{
     content: "";
     position: absolute;
@@ -294,6 +308,7 @@ section{
 i:hover::after{
     top: 0;
 }
+
 .home img{
     width: 30vw;
     background: rgba(255,255,255,.1);
@@ -302,7 +317,6 @@ i:hover::after{
     filter: drop-shadow(0 0 8rem #ff00ee);
     animation: Scale 2s ease forwards;
     scale: 0;
-    animation-delay: 1s;
     padding: 20px;
 }
 @keyframes Scale{
@@ -440,7 +454,6 @@ section.start-animation .text-content2 .btn{
 }
 section.start-animation .column:nth-child(1){
     animation: Right 1s ease forwards;
-    animation-delay: 1s;
 }
 
 .column:nth-child(2){
@@ -449,7 +462,6 @@ section.start-animation .column:nth-child(1){
 }
 section.start-animation .column:nth-child(2){
     animation: Left 1s ease forwards;
-    animation-delay: 1s;
 }
 .column h2{
     font-size: 2.5rem ;
@@ -459,7 +471,6 @@ section.start-animation .column:nth-child(2){
 }
 section.start-animation .column h2{
     animation: top 1s ease forwards;
-    animation-delay: 1s;
 }
 
 .box{
@@ -476,6 +487,7 @@ section.start-animation .column h2{
     margin-bottom: 2rem;
     position: relative;
 }
+
 .content::before{
     content: "";
     position: absolute;
@@ -486,10 +498,12 @@ section.start-animation .column h2{
     border-radius: 50%;
     background: #ff00ee;
 }
+
 .content .year{
     font-size: 1.5rem;
     color: #ff00ee;
 }
+
 .content .year i{
     color: #ff00ee;
     font-size: 1.5rem;
@@ -521,12 +535,13 @@ section.start-animation .column h2{
 }
 section.start-animation .skill-title{
     animation: top 1s ease forwards;
-    animation-delay: 1.2s;
 }
+
 .skill-content{
     width: 100%;
     flex:  1 1 30rem;
 }
+
 .skill-box{
     height: 100%;
     width: 100%;
@@ -540,7 +555,6 @@ section.start-animation .skill-title{
 }
 section.start-animation .skill-box1{
     animation:  Right 1s ease forwards;
-    animation-delay: 1s;
 }
 .skill-box2{
     opacity: 0;
@@ -548,8 +562,8 @@ section.start-animation .skill-box1{
 }
 section.start-animation .skill-box2{
     animation:Left 1s ease forwards;
-    animation-delay: 1s;
 }
+
 .single-skill{
     display: flex;
     justify-content: space-between;
@@ -598,7 +612,6 @@ input:nth-child(1){
 }
 section.start-animation input:nth-child(1){
     animation:Right 1s ease forwards;
-    animation-delay: 1s;
 }
 input:nth-child(2){
     opacity: 0;
@@ -606,8 +619,8 @@ input:nth-child(2){
 }
 section.start-animation input:nth-child(2){
     animation:Left 1s ease forwards;
-    animation-delay: 1s;
 }
+
  input,textarea{
     width: 100%;
     padding: 1.5rem;
@@ -625,7 +638,6 @@ section.start-animation input:nth-child(2){
 }
 section.start-animation textarea{
     animation:Bottom 1s ease forwards;
-    animation-delay: 1s;
 }
 input::placeholder{
     font-size: 1.5rem;
