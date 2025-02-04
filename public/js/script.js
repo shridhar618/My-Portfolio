@@ -31,7 +31,7 @@ window.onscroll = ()=>{
 
 function whatsapp() {
     let phoneNumber = "8431152037"; // Replace with your WhatsApp number
-    let message = "Hello👋 Shridhar!"; // Optional message
+    let message = "Hello👋 Shridhar! I would like to connect with you regarding a professional opportunity."; // Optional message
     let url = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message);
     
     window.open(url, "_blank"); // Opens in a new tab

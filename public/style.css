@@ -862,6 +862,11 @@ footer i{
         width: 28rem;
     }
 
+    .social-media{
+        display: none;
+    }
+
+    
     .text-content2 h2 {
         font-size: 2rem;
     }
