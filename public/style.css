@@ -125,6 +125,9 @@ section{
     animation-delay: 0.3s;
 }
 
+
+
+
 .text-animation{
     position: relative;
     width: 32.8rem;
@@ -661,7 +664,12 @@ textarea{
     margin-top: 2rem;
     cursor: pointer;
     filter: none;
-    border: .2rem solid rgba(255,255,255,.3);
+    border: .2rem solid rgba(44, 31, 31, 0.3);
+}
+
+section.start-animation .btn{
+    animation:Bottom 1s ease forwards;
+    animation-delay: 1.4s;
 }
 
 .contact .btn:hover{
