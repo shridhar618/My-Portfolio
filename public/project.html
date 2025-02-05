@@ -321,6 +321,101 @@ ul {
   background-color: #ff0000;
 }
 
+
+
+    /* ... previous styles ... */
+
+    @media screen and (max-width: 768px) {
+        header h1 {
+            font-size: 1.5rem;
+        }
+
+        nav {
+            display: flex;
+            flex-direction: row;
+        }
+
+        nav a {
+            padding: 10px;
+            display: block;
+            text-align: center;
+            width: 100%;
+        }
+
+        .hero h2 {
+            font-size: 1.5rem;
+        }
+
+        .hero p {
+            font-size: 1rem;
+        }
+
+        .projects {
+            grid-template-columns: 1fr;
+            gap: 20px;
+            padding: 1rem;
+        }
+
+        .project-card {
+            margin: 0 10px;
+        }
+
+        .project-card img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .example-2 {
+            margin-left: 0;
+            justify-content: center;
+            padding: 0;
+        }
+
+        .example-2 .icon-content {
+            margin: 0 5px;
+        }
+
+        .example-2 .icon-content a {
+            width: 40px;
+            height: 40px;
+        }
+
+        .example-2 .icon-content a svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        footer p {
+            padding: 0 10px;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        header h1 {
+            font-size: 1.2rem;
+        }
+
+        nav a {
+            font-size: 0.9rem;
+        }
+
+        .hero h2 {
+            font-size: 1.2rem;
+        }
+
+        .project-card h3 {
+            font-size: 1.2rem;
+        }
+
+        .project-card p {
+            font-size: 0.9rem;
+        }
+
+        button.learn-more {
+            width: 10rem;
+        }
+    }
+
     </style>
 </head>
 <body>
