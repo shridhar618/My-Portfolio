@@ -1,4 +1,4 @@
-const menubar = document.querySelector('#menu');
+
 const Navbar = document.querySelector('.navbar');
 menubar.onclick=()=>{
     menubar.classList.toggle('bx-x');
@@ -42,3 +42,8 @@ function whatsapp() {
 function hire(){
     window.location.href="https://www.linkedin.com/in/shridhar-bhat-bb3410290/";
 }
+
+
+document.getElementById("menu").addEventListener("click", function() {
+    document.querySelector(".navbar").classList.toggle("active");
+});
