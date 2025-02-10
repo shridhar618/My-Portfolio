@@ -43,7 +43,7 @@ function hire(){
     window.location.href="https://www.linkedin.com/in/shridhar-bhat-bb3410290/";
 }
 
-
+//for dropdown menu
 document.getElementById("menu").addEventListener("click", function() {
     document.querySelector(".navbar").classList.toggle("active");
 });
