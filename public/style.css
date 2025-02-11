@@ -745,6 +745,10 @@ footer i{
             right: 20px;
         }
 
+        section{
+            padding: none;
+        }
+
         .navbar {
             display: none;
             flex-direction: column;
