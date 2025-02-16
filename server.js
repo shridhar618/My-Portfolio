@@ -92,10 +92,17 @@ app.post('/login', (req, res) => {
 // Index Page (Your Home Page)
 app.get('/index', (req, res) => {
     if (req.session.user) {
-        // Serve the index.html page after successful login
-        res.sendFile(path.join(__dirname, 'public/index.html'));
+        // Add a flag in a script tag that we can check in frontend
+        const htmlContent = `
+            <script>
+                window.isLoggedIn = true;
+                window.username = "${req.session.user.username}";
+            </script>
+        `;
+        
+        // Send the HTML file with the additional script
+        res.send(htmlContent + require('fs').readFileSync(path.join(__dirname, 'public/index.html'), 'utf8'));
     } else {
-        // If not logged in, redirect to login page
         res.redirect('/login');
     }
 });
@@ -111,8 +118,8 @@ app.post('/contact', (req, res) => {
             if (err) {
                 console.error(err.message);
                 res.status(500).send('Error submitting message.');
-            } else {
-                res.status(200).send('Message sent successfully!');
+            } else{
+                res.status(200).send('Message sent to Shridhar successfully.');
             }
         }
     );

@@ -66,6 +66,10 @@ html{
     display: none;
 }
 
+nav{
+    margin-left: 100px;
+}
+
 .navbar a{
     display: inline-block;
     font-size: 1.7rem;
@@ -92,6 +96,23 @@ html{
 
 .navbar a:hover,.navbar a.active{
     color: #ff00ee;
+}
+
+
+.navbar .btn {
+    padding: 10px 20px;
+    background: var(--main-color);
+    color: var(--second-bg-color);
+    border-radius: 40%;
+    font-weight: 500;
+    transition: .3s;
+    width: 10rem;
+    margin-left: 75rem;
+}
+
+.navbar .btn:hover {
+    background: var(--second-bg-color);
+    color: var(--main-color);
 }
 
 section{
@@ -520,6 +541,8 @@ section.start-animation .column h2{
 .content p{
     font-size: 1.5rem;
 }
+
+
 /* skill-content */
 .wrapper{
     width: 100%;
@@ -677,6 +700,26 @@ section.start-animation .btn{
     box-shadow: 0 0 .3rem #ff00ee,
     0 0 .7rem #ff00ee;
 }
+
+
+.contact form .btn {
+    height: 45px;  /* Set a fixed height */
+    width: 150px;  /* Optional: set a fixed width */
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1;  /* Add this to control line height */
+    display: inline-block;  /* Add this to maintain consistent sizing */
+    border: none;  /* Add this to prevent browser default styles */
+}
+
+/* Add this to handle hover state without affecting height */
+.contact form .btn:hover {
+    background: var(--second-bg-color);
+    color: var(--main-color);
+}
+
 /* footer */
 
 footer{
@@ -747,6 +790,7 @@ footer i{
 
         section{
             padding: none;
+            margin: none;
         }
 
         .navbar {
@@ -777,6 +821,11 @@ footer i{
         }
     }
 
+
+    .about{
+        padding-bottom: none;
+    }
+
     
 @media(max-width:450px){
     html{
@@ -786,6 +835,8 @@ footer i{
         width: 100%;
     }
 }
+
+
 
 
 

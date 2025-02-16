@@ -53,7 +53,7 @@
         .hero {
             text-align: center;
             padding: 2rem;
-            background: #fff;
+            background: #e9e3e3;
         }
 
         .hero h2 {
@@ -88,6 +88,11 @@
 
         .project-card:hover {
             transform: scale(1.05);
+        }
+
+        .project-card img{
+            height: 150px;
+            width: 300px;
         }
 
         .project-card h3 {
@@ -447,6 +452,8 @@ ul {
                 <span class="button-text">See Project</span>
             </button>
         </div>
+
+
         <div class="project-card">
             <img src="images/keeper-project.png" alt="project2" height="150px" width="300px">
             <h3>Note Keeper Project</h3>
@@ -458,17 +465,21 @@ ul {
                 <span class="button-text">See Project</span>
             </button>
         </div>
+
+
         <div class="project-card">
-            <img src="#" alt="project2">
-            <h3>Project Three</h3>
-            <p>A brief description of the third project.</p>
-            <button class="learn-more">
+            <img src="images/to-do list project.png" alt="project3">
+            <h3>TO-DO List App</h3>
+            <p>I ahve created to-do list app using bolt ai</p>
+            <button onclick="todo()" class="learn-more">
                 <span class="circle" aria-hidden="true">
                 <span class="icon arrow"></span>
                 </span>
                 <span class="button-text">See Project</span>
             </button>
         </div>
+
+
         <div class="project-card">
             <img src="#" alt="project2">
             <h3>Project Four</h3>
@@ -585,6 +596,10 @@ ul {
 
         function navonmesh(){
             window.location.href="https://shannu44.pythonanywhere.com/";
+        }
+
+        function todo(){
+            window.location.href="https://to-do-app-by-bolt-ai.vercel.app/"
         }
     </script>
 </body>
