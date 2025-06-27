@@ -177,10 +177,10 @@ nav {
 .project-card button.learn-more {
     margin-top: auto;
     align-self: center;
-    background: #ff00ee;
+    background: #fffeff;
     color: #0f0a0a;
-    border-radius: 50%;
-    font-size: 2.4rem;
+    border-radius: 5%;
+    font-size: 1.4rem;
 }
 
 footer {
