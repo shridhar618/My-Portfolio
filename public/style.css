@@ -836,6 +836,109 @@ footer i{
     }
 }
 
+/* Project Showcase Section Styles */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 4rem;
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto 6rem auto;
+}
+
+.project-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 1.2rem;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    padding: 2.5rem 2rem 2rem 2rem;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    color: #fff;
+}
+
+.project-card:hover {
+    transform: scale(1.04);
+    box-shadow: 0 8px 32px #ff00ee44;
+}
+
+.project-card img {
+    height: 150px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 0.7rem;
+    margin-bottom: 1.5rem;
+    background: #222;
+}
+
+.project-card h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #ff00ee;
+    font-weight: 600;
+}
+
+.project-card p {
+    color: #ccc;
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.project-card button.learn-more {
+    margin-top: 1rem;
+}
+
+.hero {
+    text-align: center;
+    padding: 6rem 2rem 2rem 2rem;
+    background: linear-gradient(90deg, #0f0a0a 60%, #1a001a 100%);
+    border-radius: 0 0 2rem 2rem;
+    margin-bottom: 2rem;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1.2rem;
+    color: #ff00ee;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: #fff;
+    opacity: 0.8;
+}
+
+@media (max-width: 900px) {
+    .projects {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 2rem 1rem;
+    }
+    .project-card img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero h2 {
+        font-size: 2rem;
+    }
+    .hero p {
+        font-size: 1.1rem;
+    }
+    .project-card h3 {
+        font-size: 1.3rem;
+    }
+    .project-card p {
+        font-size: 1rem;
+    }
+    .project-card {
+        padding: 1.2rem 0.5rem 1.5rem 0.5rem;
+    }
+}
+
 
 
 
