@@ -128,6 +128,8 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1rem 0.5rem !important;
+    margin: 0 !important;
 }
 
 .text-content{
@@ -906,6 +908,8 @@ footer i{
     background: linear-gradient(90deg, #0f0a0a 60%, #1a001a 100%);
     border-radius: 0 0 2rem 2rem;
     margin-bottom: 2rem;
+    padding: 1rem 0.5rem !important;
+    margin: 0 !important;
 }
 
 .hero h2 {
@@ -921,41 +925,14 @@ footer i{
     opacity: 0.8;
 }
 
-}
-
-@media (max-width: 900px) {
-    .projects {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-        padding: 2rem 1rem;
-    }
-    .project-card img {
-        width: 100%;
-        height: auto;
-    }
-    .home img{
-        display: none;
-    }
-}
-
 @media (max-width: 600px) {
-    .hero h2 {
-        font-size: 3rem;
+    .home {
+        padding: 2rem 0.5rem 1rem 0.5rem; /* Reduce top/bottom padding */
+        margin: 0;
     }
-    .home img{
-        display: none;
-    }
-    .hero p {
-        font-size: 1.8rem;
-    }
-    .project-card h3 {
-        font-size: 1.3rem;
-    }
-    .project-card p {
-        font-size: 1rem;
-    }
-    .project-card {
-        padding: 1.2rem 0.5rem 1.5rem 0.5rem;
+    .hero {
+        padding: 2rem 0.5rem 1rem 0.5rem; /* If you use .hero for hero section */
+        margin: 0;
     }
 }
 
