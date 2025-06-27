@@ -415,6 +415,8 @@ section.start-animation .aboutImg{
     transform: translatex(-100px);
     opacity: 0;
 }
+
+
 section.start-animation .text-content2 h2{
     animation: Right 1s ease forwards;
 }
