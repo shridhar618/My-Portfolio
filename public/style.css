@@ -905,7 +905,7 @@ footer i{
     padding: 6rem 2rem 2rem 2rem;
     background: linear-gradient(90deg, #0f0a0a 60%, #1a001a 100%);
     border-radius: 0 0 2rem 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0.1rem;
     padding: 1rem 0.5rem !important;
     margin-top: 100px;
 }
