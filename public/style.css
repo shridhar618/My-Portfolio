@@ -982,7 +982,7 @@ footer i{
         font-size: 1rem;
     }
     .home {
-        padding-top: 180px !important; /* or whatever matches your mobile header */
+        padding-top: 380px !important; /* or whatever matches your mobile header */
     }
 }
 
