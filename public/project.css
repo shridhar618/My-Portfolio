@@ -175,13 +175,13 @@ nav {
 }
 
 .project-card button.learn-more {
-    margin-top: 100px;
+    margin-top: 50px;
     height: 30px;
     width: 100px;
     align-self: center;
     background: #f15ff1;
     color: #0f0a0a;
-    border-radius: 10%;
+    border-radius: 10px;
     font-size: 1.4rem;
 }
 
