@@ -934,7 +934,7 @@ footer i{
     }
     .hero {
         padding: 2rem 0.5rem 1rem 0.5rem; /* If you use .hero for hero section */
-        margin: 0;
+        margin-left: 100px;
     }
 }
 
