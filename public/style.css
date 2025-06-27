@@ -129,10 +129,10 @@ section{
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0.5rem !important;
-    margin: 0 !important;
 }
 
 .text-content{
+    margin-left: 100px;
     max-width: 70rem;
 }
 
@@ -344,6 +344,7 @@ i:hover::after{
     animation: Scale 1s ease forwards;
     scale: 0;
     padding: 20px;
+    margin-right: 100px;
 }
 @keyframes Scale{
     0%{
