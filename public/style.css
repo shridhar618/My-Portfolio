@@ -975,7 +975,7 @@ footer i{
         margin: 0 1rem;
     }
     .home img {
-        display: none;
+        margin-top: 2rem;
     }
     .text-content h1 {
         font-size: 2.2rem;
