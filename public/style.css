@@ -788,6 +788,10 @@ footer i{
             right: 20px;
         }
 
+        .home img{
+            display: none;
+        }
+
         section{
             padding: none;
             margin: none;
@@ -834,7 +838,13 @@ footer i{
     .input-box input{
         width: 100%;
     }
+
+
+.home img{
+    display: none;
 }
+
+
 
 /* Project Showcase Section Styles */
 .projects {
@@ -919,11 +929,17 @@ footer i{
         width: 100%;
         height: auto;
     }
+    .home img{
+        display: none;
+    }
 }
 
 @media (max-width: 600px) {
     .hero h2 {
         font-size: 2rem;
+    }
+    .home img{
+        display: none;
     }
     .hero p {
         font-size: 1.1rem;
