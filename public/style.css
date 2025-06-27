@@ -931,6 +931,7 @@ footer i{
     opacity: 0.8;
     margin-bottom: 0;
 }
+}
 
 @media (max-width: 900px) {
     .hero {
@@ -961,7 +962,7 @@ footer i{
         flex-direction: column;
         align-items: center;
         padding: 1.5rem 0.5rem 0.5rem 0.5rem !important;
-        margin: 1.5rem 0 2rem 0 !important;
+        margin: 1.5rem 0 1rem 0 !important;
     }
     .home img {
         width: 90vw;
