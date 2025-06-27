@@ -940,13 +940,13 @@ footer i{
 
 @media (max-width: 600px) {
     .hero h2 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
     .home img{
         display: none;
     }
     .hero p {
-        font-size: 1.1rem;
+        font-size: 1.8rem;
     }
     .project-card h3 {
         font-size: 1.3rem;
