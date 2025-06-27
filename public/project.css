@@ -175,6 +175,8 @@ nav {
 }
 
 .project-card button.learn-more {
+    height: 40px;
+    width: 100px;
     margin-top: auto;
     align-self: center;
     background: #fffeff;
