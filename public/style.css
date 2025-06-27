@@ -927,8 +927,10 @@ footer i{
 
 @media (max-width: 600px) {
     .home {
-        padding: 2rem 0.5rem 1rem 0.5rem; /* Reduce top/bottom padding */
-        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        padding: 1.5rem 0.5rem 0.5rem 0.5rem !important;
+        margin: 0 0 2rem 0 !important;
     }
     .hero {
         padding: 2rem 0.5rem 1rem 0.5rem; /* If you use .hero for hero section */
@@ -971,12 +973,6 @@ footer i{
     .navbar a {
         font-size: 1.2rem;
         margin: 0 1rem;
-    }
-    .home {
-        flex-direction: column;
-        align-items: center;
-        padding: 1.5rem 0.5rem 0.5rem 0.5rem !important;
-        margin: 0 !important;
     }
     .home img {
         display: none;
