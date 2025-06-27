@@ -820,6 +820,8 @@ footer i{
             border-bottom: none;
         }
 
+
+
         .navbar.active {
             display: flex;
         }
@@ -917,6 +919,8 @@ footer i{
     font-size: 1.5rem;
     color: #fff;
     opacity: 0.8;
+}
+
 }
 
 @media (max-width: 900px) {
