@@ -165,7 +165,7 @@ section{
     background-position: -33rem 0;
     transform: translateY(-100px);
     opacity: 0;
-    animation: textSlide 2s linear infinite,
+    animation: textSlide 1s linear infinite,
     TopSlide 1s ease forwards;
     animation-delay: 0.3s;
 }
@@ -187,7 +187,7 @@ section{
     border-right: 2px solid #ff00ee;
     transform: translateY(-100px);
     opacity: 0;
-    animation: CursorSlide 6s linear infinite,
+    animation: CursorSlide 1s linear infinite,
     TopSlide 1s ease forwards;
     animation-delay: 0.2s;
 }
@@ -339,7 +339,7 @@ i:hover::after{
     border: .2rem solid rgba(255,255,255,.3);
     border-radius: 50%;
     filter: drop-shadow(0 0 8rem #ff00ee);
-    animation: Scale 2s ease forwards;
+    animation: Scale 1s ease forwards;
     scale: 0;
     padding: 20px;
 }
@@ -692,7 +692,7 @@ textarea{
 
 section.start-animation .btn{
     animation:Bottom 1s ease forwards;
-    animation-delay: 1.4s;
+    animation-delay: 0.2s;
 }
 
 .contact .btn:hover{
