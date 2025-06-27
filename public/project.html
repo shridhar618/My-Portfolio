@@ -14,11 +14,10 @@
         <i class="fa-solid fa-bars" id="menu"></i>
         <nav class="navbar">
             <a href="index.html" class="active">Home</a>
-            <a href="#about">About Me</a>
-            <a href="#education">Education</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact">Contact Me</a>
-            <a href="login.html" id="logoutBtn" class="btn" style="display: none;">Logout</a>
+            <a href="index.html">About Me</a>
+            <a href="index.html">Education</a>
+            <a href="index.html">Skills</a>
+            <a href="index.html">Contact Me</a>
         </nav>
     </header>
 
@@ -33,7 +32,32 @@
             <h3>Navonmesh 2024</h3>
             <p>A College Event Management website created using Flask in 2024</p>
             <!-- From Uiverse.io by cssbuttons-io --> 
-            <button onclick="navonmesh()" class="learn-more">
+            <button class="learn-more">
+                <span class="circle" aria-hidden="true">
+                <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">See Project</span>
+            </button>
+        </div>
+
+
+        <div class="project-card">
+            <img src="images/chatbot.png" alt="project2" height="150px" width="300px">
+            <h3>Chatbot For Fitness Purpose</h3>
+            <p>I have created a chatbot using API for fitness purpose on 2025.It will answers all the questions related to the fitness.</p>
+            <button class="learn-more">
+                <span class="circle" aria-hidden="true">
+                <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">See Project</span>
+            </button>
+        </div>
+
+        <div class="project-card">
+            <img src="images/keeper-project.png" alt="project2" height="150px" width="300px">
+            <h3>Note Keeper Project</h3>
+            <p>A Simple Note Keeper App Created By React JS in 2025</p>
+            <button class="learn-more">
                 <span class="circle" aria-hidden="true">
                 <span class="icon arrow"></span>
                 </span>
@@ -46,7 +70,7 @@
             <img src="images/keeper-project.png" alt="project2" height="150px" width="300px">
             <h3>Note Keeper Project</h3>
             <p>A Simple Note Keeper App Created By React JS in 2025</p>
-            <button onclick="keeper()" class="learn-more">
+            <button class="learn-more">
                 <span class="circle" aria-hidden="true">
                 <span class="icon arrow"></span>
                 </span>
@@ -59,7 +83,7 @@
             <img src="images/to-do list project.png" alt="project3">
             <h3>TO-DO List App</h3>
             <p>I ahve created to-do list app using bolt ai</p>
-            <button onclick="todo()" class="learn-more">
+            <button class="learn-more">
                 <span class="circle" aria-hidden="true">
                 <span class="icon arrow"></span>
                 </span>
@@ -87,19 +111,7 @@
         </div>
         <a href="#" class="social-media"> <i class="bx bx-up-arrow-alt"></i></a>
     </footer>
-    <script>
-        function keeper(){
-            window.location.href="https://keeper-sepia-phi.vercel.app/";
-        }
-
-        function navonmesh(){
-            window.location.href="https://shannu44.pythonanywhere.com/";
-        }
-
-        function todo(){
-            window.location.href="https://to-do-app-by-bolt-ai.vercel.app/"
-        }
-    </script>
+    <script src="project.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
