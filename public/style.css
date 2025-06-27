@@ -981,6 +981,9 @@ footer i{
     .hero p {
         font-size: 1rem;
     }
+    .home {
+        padding-top: 80px !important; /* or whatever matches your mobile header */
+    }
 }
 
 @media (max-width: 400px) {
