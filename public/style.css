@@ -973,6 +973,10 @@ footer i{
         border-radius: 1.2rem;
     }
 
+    .home h2{
+        text-align: center;
+    }
+
     .home .text-content{
         margin-left: 50px;
         margin-right: 50px;
