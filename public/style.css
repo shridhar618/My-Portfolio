@@ -909,7 +909,7 @@ footer i{
     border-radius: 0 0 2rem 2rem;
     margin-bottom: 2rem;
     padding: 1rem 0.5rem !important;
-    margin: 0 !important;
+    margin-left: 100px;
 }
 
 .hero h2 {
