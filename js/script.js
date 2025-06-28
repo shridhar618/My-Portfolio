@@ -32,4 +32,6 @@ function chatbot(){
     window.location.href("https://www.linkedin.com/in/shridhar-bhat-bb3410290/")
 }
 
-function navonmesh
+function navonmesh(){
+    window.location.href("#");
+}
