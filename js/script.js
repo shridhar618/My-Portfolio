@@ -27,3 +27,9 @@ document.getElementById('logoutBtn').addEventListener('click', async function(e)
         alert('Failed to logout. Please try again.');
     }
 }); 
+
+function chatbot(){
+    window.location.href("https://www.linkedin.com/in/shridhar-bhat-bb3410290/")
+}
+
+function navonmesh
