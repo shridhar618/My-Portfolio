@@ -166,7 +166,7 @@ nav {
 }
 
 .project-card h3 {
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin-bottom: 1rem;
     color: #ff00ee;
     font-weight: 600;
@@ -175,7 +175,7 @@ nav {
 .project-card p {
     color: #ccc;
     margin-bottom: 0.5rem;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .project-card button.learn-more {
