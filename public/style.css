@@ -736,7 +736,7 @@ footer{
     flex-wrap: wrap;
 }
 footer p{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 footer i{
     display: inline-flex;
@@ -745,8 +745,8 @@ footer i{
     padding: .8rem; 
     background: #ff00ee;
     color: #0f0a0a;
-    border-radius: 50%;
-    font-size: 2.4rem;
+    border-radius: 50px;
+    font-size: 2rem;
 }
 
 
