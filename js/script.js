@@ -40,3 +40,10 @@ function chatapp(){
     window.location.href("#")
 }
 
+function fitclub(){
+    window.location.href("#")
+}
+
+function todo(){
+    window.location.href("")
+}
