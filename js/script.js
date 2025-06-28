@@ -29,9 +29,14 @@ document.getElementById('logoutBtn').addEventListener('click', async function(e)
 }); 
 
 function chatbot(){
-    window.location.href("https://www.linkedin.com/in/shridhar-bhat-bb3410290/")
+    window.location.href("https://flask-chatbot-3-pl35.onrender.com/")
 }
 
 function navonmesh(){
     window.location.href("#");
 }
+
+function chatapp(){
+    window.location.href("#")
+}
+
