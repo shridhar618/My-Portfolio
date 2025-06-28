@@ -45,5 +45,5 @@ function fitclub(){
 }
 
 function todo(){
-    window.location.href("")
+    window.location.href("https://to-do-app-by-bolt-ai.vercel.app/")
 }
