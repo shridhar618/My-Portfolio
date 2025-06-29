@@ -183,10 +183,17 @@ nav {
     height: 30px;
     width: 100px;
     align-self: center;
-    background: #db63db;
+    background: #790d79;
     color: #ffffff;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 1rem;
+    cursor: pointer;
+    border-color: #790d79;
+    box-shadow: #444;
+}
+
+.project-card button.learn-more:hover{
+    background-color: #580858;
 }
 
 footer {
