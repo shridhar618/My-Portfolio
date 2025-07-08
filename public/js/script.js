@@ -56,7 +56,7 @@ function chatapp(){
 }
 
 function fitclub(){
-    window.location.href("#");
+    window.location.href("https://fitclub-beta.vercel.app/");
 }
 
 function todo(){
