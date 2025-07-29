@@ -63,6 +63,10 @@ function todo(){
     window.location.href("https://to-do-app-by-bolt-ai.vercel.app/");
 }
 
+function sitecrafter(){
+    window.location.href("https://site-crafters.vercel.app/")
+}
+
 
 
 //for dropdown menu
