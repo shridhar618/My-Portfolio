@@ -894,7 +894,7 @@ footer i{
         height: auto;
         margin: 1.5rem auto 0 auto;
         display: block;
-        border-radius: 1.2rem;
+        border-radius: 50%;
     }
 
     .home h2{
