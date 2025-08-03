@@ -910,7 +910,7 @@ footer i{
         padding: 1.5rem 0.5rem 1.5rem 0.5rem !important;
         margin: 2.5rem 0 1rem 0 !important;
         border-radius: 0 0 1.2rem 1.2rem;
-        margin-top: 100px;
+        margin-top: 50px;
     }
     .hero h2 {
         font-size: 1.5rem;
@@ -920,7 +920,7 @@ footer i{
         font-size: 1rem;
     }
     .home {
-        padding-top: 100px !important; /* or whatever matches your mobile header */
+        padding-top: 50px !important; /* or whatever matches your mobile header */
     }
     
 
