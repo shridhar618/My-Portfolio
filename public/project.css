@@ -33,6 +33,7 @@ h1{
     text-decoration-color: #dddddd;
     text-decoration-thickness: 3px;
     text-underline-offset: 10px;
+    padding-bottom: 20px;
 }
 
 .sticky {
