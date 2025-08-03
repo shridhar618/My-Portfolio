@@ -887,6 +887,7 @@ footer i{
         align-items: center;
         padding: 1.5rem 0.5rem 0.5rem 0.5rem !important;
         margin: 1.5rem 0 1rem 0 !important;
+        max-height: 100px;
     }
     .home img {
         width: 90vw;
