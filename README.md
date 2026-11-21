@@ -21,7 +21,8 @@ A full-stack personal portfolio website with user signup and login, a project sh
 
 ```bash
 npm install
-node setup.js      # create the database tables
+node setup.js      # create the users table
+node setup2.js     # create the contact table
 npm start
 ```
 
